@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background: pink;
+  font-family: "PT Sans";
+  color: white;
+  justify-content: center; 
+}
+#quote-box {
+  border-radius: 5px;
+  position: relative;
+  padding: 3rem;
+  background-color: white;
+  height: auto;
+}
+#text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  font-size: 2rem;
+  color: pink;
+}
+#author {
+  width: 450px;
+  height: 100%;
+  text-align: right;
+  padding-top: 3rem;
+  font-size: 1.3rem;
+  color: pink;
+}
+#buttons {
+  display: inline-block;
+  text-align: right;
+  padding: 1rem;
+  border-radius: 5px;
+  display: block;
+  border: none;
+  background-color: pink;
+  color: white;
+  float: right;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+#new-quote {
+  color: white;
+  border: none;
+  background-color: pink;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem; 
+  border-radius: 5px;
+}
+
+#new-quote:hover {
+  background-color: lightblue;
+}
+#tweet-quote {
+  float: right;
+  padding: 0px;
+  text-aign: center;
+  margin-right: 5px;
+  color: white;
+  background-color: pink;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+#tweet-quote:hover {
+  background-color: lightblue;
+
+}
